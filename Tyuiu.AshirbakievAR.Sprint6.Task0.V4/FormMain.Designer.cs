@@ -167,7 +167,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task0.V4
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Спринт 6 | Таск 0 | Вариант 17 | Аширбакиев А. Р.";
+            this.Text = "Спринт 6 | Таск 0 | Вариант 4 | Аширбакиев А. Р.";
             this.groupBoxInfo_AAR.ResumeLayout(false);
             this.groupBoxInfo_AAR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula)).EndInit();
