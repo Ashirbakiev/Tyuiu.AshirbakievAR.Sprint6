@@ -16,7 +16,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task0.V4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMain());
         }
     }
 }
