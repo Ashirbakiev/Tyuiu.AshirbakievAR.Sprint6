@@ -29,6 +29,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task6.V5
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelHeader_AAR = new System.Windows.Forms.Panel();
             this.buttonHelp_AAR = new System.Windows.Forms.Button();
@@ -45,6 +46,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task6.V5
             this.groupBoxOutput_AAR = new System.Windows.Forms.GroupBox();
             this.textBoxResultAfter_AAR = new System.Windows.Forms.TextBox();
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panelHeader_AAR.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -73,6 +75,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task6.V5
             this.buttonHelp_AAR.Name = "buttonHelp_AAR";
             this.buttonHelp_AAR.Size = new System.Drawing.Size(75, 68);
             this.buttonHelp_AAR.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.buttonHelp_AAR, "Сведение о программе");
             this.buttonHelp_AAR.UseVisualStyleBackColor = true;
             this.buttonHelp_AAR.Click += new System.EventHandler(this.buttonHelp_AAR_Click);
             // 
@@ -83,6 +86,8 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task6.V5
             this.buttonDone_AAR.Name = "buttonDone_AAR";
             this.buttonDone_AAR.Size = new System.Drawing.Size(75, 68);
             this.buttonDone_AAR.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.buttonDone_AAR, "Производит поиск в файле и выводит предпоследнее слово каждой строки в результиру" +
+        "ющею строку");
             this.buttonDone_AAR.UseVisualStyleBackColor = true;
             this.buttonDone_AAR.Click += new System.EventHandler(this.buttonDone_AAR_Click);
             // 
@@ -93,6 +98,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task6.V5
             this.buttonPush_AAR.Name = "buttonPush_AAR";
             this.buttonPush_AAR.Size = new System.Drawing.Size(75, 68);
             this.buttonPush_AAR.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.buttonPush_AAR, "Открыть файл\r\nВыберите нужный файл для обработки");
             this.buttonPush_AAR.UseVisualStyleBackColor = true;
             this.buttonPush_AAR.Click += new System.EventHandler(this.buttonPush_AAR_Click);
             // 
@@ -240,6 +246,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task6.V5
         private System.Windows.Forms.OpenFileDialog openFileDialogTask;
         private System.Windows.Forms.TextBox textBoxResult_AAR;
         private System.Windows.Forms.TextBox textBoxResultAfter_AAR;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
