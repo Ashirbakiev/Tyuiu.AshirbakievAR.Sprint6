@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tyuiu.AshirbakievAR.Sprint6.Task4.V17
+namespace Tyuiu.AshirbakievAR.Sprint6.Task5.V12
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace Tyuiu.AshirbakievAR.Sprint6.Task4.V17
         /// </summary>
         [STAThread]
         static void Main()
-       {
+        {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormMain());
